@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+#contenu{
+	background-color: white;
+	margin-right: 50%;
+	margin-left: 50%;
+	padding: 20px;
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+	
+#mainnav ul {
+	font-size:15px;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;  
+	margin-top: 10px;
+	margin-right: px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	list-style-type: none;
+}
+#mainnav a {
+	width: 16.6%;
+	height:35px;
+	line-height:35px;
+	vertical-align:middle; 
+	display:block;
+	float: left;
+	text-align:center;
+	background-color: #4d4d4d;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	padding-top: 3px;
+	padding-bottom: 3px;	
+}
+	
+
+/* Couleur d'arrière-plan */
+
+body{
+	background-image:url(Images/niki.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	color:#474747;
+	font-family:snell roundhand, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	margin-top:100px;
+	margin-bottom:50px;
+	margin-right:90px;
+	margin-left:90px;
+	width:800px;
+	margin:auto;
+	margin-top:2Opx;
+	margin-bottom:150px;
+	padding-bottom:150px;
+	text-align:justify;
+	font-size:15px}
+**Le style CSS à appliquer :**
+<pre lang=`css`>html, body, #wrap {
+    height: 100%;
+}
+
+body &gt; #wrap {
+    height: auto; 
+    min-height: 100%;
+	
+}
+
+#main {
+    padding-bottom: 150px;  /* MÊME TAILLE QUE LA HAUTEUR DU FOOTER !! */
+}  
+
+#mainnav a:hover, #mainnav a:active, #mainnav a:focus, #mainnav a.thispage {
+	background-color: lightGray;
+	color:black;
+	text-decoration: none;
+}
+
+footer {
+	font-size: 13px;
+	padding-top: 200px;
+	color: LightSlateGray;
+	text-align: center;
+	bottom: 20px;
+}
+
+
+article1 {
+	font-size: xx-large;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	text-align: center;
+}
+table {
+	float:left;
+	border:none;
+	border-color:transparent;
+	align-content:center;
+	
+
+	
+	
+
+	
+	
+	
+	
+	
+}
+	
+	
+	
+	
+		
+
+article {
+	text-align: left;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	margin-left: -140px;
+	margin-right: 60px;
+	font-size:16px;
+	color: black;
+	font-style: italic;
+	padding-top:130px;
+	float:left;
+	margin-right:500px;
+	
+}
+/* Pied de page */
+footer {
+	font-size:13px;
+	padding-top: 500px;
+	padding-bottom: 2px;
+	padding-left: 2%;
+	color: LightSlateGray;
+	clear: left;
+	}
+
+
+/* Texte */
+
+
+
+/* Liens hypertextes */
+
+a:link{
+	color:#911CFF;
+	text-decoration:none;
+	font-style:italic;}
+
+a:visited{
+	font-style:normal;}
+
+a:hover{
+	color: #000000;
+	width: 150px;
+	height: 150px;
+	float: none;
+}
+	 
+
+/* Les lettrines */
+
+p:first-letter{
+	float:left;
+	font-size:2em;
+	font-family:Comic Sans, Comic Sans MS, cursive;
+	font-weight:bold;
+	margin-right:4px;}
+
+/*L'en-tête/bannière*/
+
+#header a
+{display: block;
+height: 61px;
+width: 222px;
+}

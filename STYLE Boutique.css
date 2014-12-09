@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+#contenu{
+	background-color: white;
+	margin-right: 10%;
+	margin-left: 10%;
+	padding: 20px;
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+	
+#mainnav ul {
+	font-size:15px;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;  
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	list-style-type: none;
+}
+#mainnav a {
+	width: 16.6%;
+	height:35px;
+	line-height:35px;
+	vertical-align:middle; 
+	display:block;
+	float: left;
+	text-align:center;
+	background-color: #4d4d4d;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	padding-top: 3px;
+	padding-bottom: 3px;	
+}
+	
+
+/* Couleur d'arrière-plan */
+
+body{
+	background-image:url(Images/boutique1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	color:#474747;
+	font-family:snell roundhand, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	margin-top:100px;
+	margin-bottom:50px;
+	margin-right:100px;
+	margin-left:100px;
+	width:800px;
+	margin:auto;
+	margin-top:2Opx;
+	margin-bottom:150px;
+	padding-bottom:150px;
+	text-align:justify;
+	font-size:15px}
+**Le style CSS à appliquer :**
+<pre lang=`css`>html, body, #wrap {
+    height: 100%;
+}
+
+body &gt; #wrap {
+    height: auto; 
+    min-height: 100%;
+}
+
+#main {
+    padding-bottom: 150px;  /* MÊME TAILLE QUE LA HAUTEUR DU FOOTER !! */
+}  
+/* Pied de page */
+article {
+	text-align:center;
+	padding-top:100px;
+	font-size:16px;
+	font-family:Comic Sans, Comic Sans MS, cursive;
+	
+}
+
+#mainnav a:hover, #mainnav a:active, #mainnav a:focus, #mainnav a.thispage {
+	background-color: lightGray;
+	color:black;
+	text-decoration: none;
+}
+
+table {
+	padding-top:90px;
+}
+	
+footer {
+	font-size:13px;
+	padding-top: 450px;
+	padding-bottom: 2px;
+	padding-left: 2%;
+	color:LightSlateGray ;
+	clear: left;
+	text-align:center;
+	
+	}
+
+/* Texte */
+
+.quisommesnous, .notreprojet, .baladesetséjours, .produitsdérivés{color:#FF08EA;}
+
+
+#accueil {
+color:#1521A8;
+font-size:40px;
+position:relative
+}
+
+/* CONTACT */
+#p1{
+	float:left;
+	width:33%;
+	line-height:24px;
+	margin-right:1%;}
+
+#p2{
+	float:left;
+	width:32%;
+	line-height:24px;
+	margin-right:1%;}
+	
+
+
+
+/* Liens hypertextes */
+
+a:link{
+	color:#911CFF;
+	text-decoration:none;
+	font-style:italic;}
+
+a:visited{
+	font-style:normal;}
+
+a:hover{
+	color:#000000;}
+	 
+
+/* Les lettrines */
+
+p:first-letter{
+	float:left;
+	font-size:2em;
+	font-family:snell roundhand, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-weight:bold;
+	margin-right:4px;}
+
+/*L'en-tête/bannière*/
+
+#header a
+{display: block;
+height: 61px;
+width: 222px;
+}
+
+#header {background-image:url(Images/licornearcenciel.jpg)
+}
